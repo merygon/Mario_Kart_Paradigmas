@@ -1,22 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\",
+  "WorkspaceRootPath": "C:\\Users\\meryg\\OneDrive\\Escritorio\\ICAI IMAT\\3\u00BA\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Proyecto Final\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|c:\\users\\david\\onedrive - universidad pontificia comillas\\03 curso\\mario_kart_paradigmas\\mario_kart_paradigmas\\assets\\codigo\\characterselectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|solutionrelative:assets\\codigo\\characterselectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|c:\\users\\meryg\\onedrive\\escritorio\\icai imat\\3\u00BA\\paradigmas y t\u00E9cnicas de programaci\u00F3n\\proyecto final\\mario_kart_paradigmas\\mario_kart_paradigmas\\assets\\codigo\\obstacles\\obstaclescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|solutionrelative:assets\\codigo\\obstacles\\obstaclescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\assets\\codigo\\vehicleselectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|solutionrelative:assets\\codigo\\vehicleselectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|c:\\users\\meryg\\onedrive\\escritorio\\icai imat\\3\u00BA\\paradigmas y t\u00E9cnicas de programaci\u00F3n\\proyecto final\\mario_kart_paradigmas\\mario_kart_paradigmas\\assets\\codigo\\vehicles\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|solutionrelative:assets\\codigo\\vehicles\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\assets\\codigo\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|solutionrelative:assets\\codigo\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|C:\\Users\\meryg\\OneDrive\\Escritorio\\ICAI IMAT\\3\u00BA\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Proyecto Final\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\assets\\codigo\\obstacles\\obstaclemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|solutionrelative:assets\\codigo\\obstacles\\obstaclemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\assets\\codigo\\mapselectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|solutionrelative:assets\\codigo\\mapselectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|C:\\Users\\meryg\\OneDrive\\Escritorio\\ICAI IMAT\\3\u00BA\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Proyecto Final\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\assets\\codigo\\obstacles\\obstacleboost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|solutionrelative:assets\\codigo\\obstacles\\obstacleboost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|C:\\Users\\meryg\\OneDrive\\Escritorio\\ICAI IMAT\\3\u00BA\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Proyecto Final\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\assets\\codigo\\obstacles\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|solutionrelative:assets\\codigo\\obstacles\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|C:\\Users\\meryg\\OneDrive\\Escritorio\\ICAI IMAT\\3\u00BA\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Proyecto Final\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\assets\\codigo\\obstacles\\obstaclefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|solutionrelative:assets\\codigo\\obstacles\\obstaclefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|C:\\Users\\meryg\\OneDrive\\Escritorio\\ICAI IMAT\\3\u00BA\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Proyecto Final\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\assets\\codigo\\obstacles\\obstacleattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|solutionrelative:assets\\codigo\\obstacles\\obstacleattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +38,93 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MapSelectionManager.cs",
-              "DocumentMoniker": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\MapSelectionManager.cs",
-              "RelativeDocumentMoniker": "Assets\\codigo\\MapSelectionManager.cs",
-              "ToolTip": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\MapSelectionManager.cs",
-              "RelativeToolTip": "Assets\\codigo\\MapSelectionManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T18:34:07.061Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "VehicleSelectionManager.cs",
-              "DocumentMoniker": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\VehicleSelectionManager.cs",
-              "RelativeDocumentMoniker": "Assets\\codigo\\VehicleSelectionManager.cs",
-              "ToolTip": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\VehicleSelectionManager.cs",
-              "RelativeToolTip": "Assets\\codigo\\VehicleSelectionManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Title": "PlayerScript.cs",
+              "DocumentMoniker": "C:\\Users\\meryg\\OneDrive\\Escritorio\\ICAI IMAT\\3\u00BA\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Proyecto Final\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\Vehicles\\PlayerScript.cs",
+              "RelativeDocumentMoniker": "Assets\\codigo\\Vehicles\\PlayerScript.cs",
+              "ToolTip": "C:\\Users\\meryg\\OneDrive\\Escritorio\\ICAI IMAT\\3\u00BA\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Proyecto Final\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\Vehicles\\PlayerScript.cs",
+              "RelativeToolTip": "Assets\\codigo\\Vehicles\\PlayerScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwA0AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T18:32:40.884Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CharacterSelectionManager.cs",
-              "DocumentMoniker": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\CharacterSelectionManager.cs",
-              "RelativeDocumentMoniker": "Assets\\codigo\\CharacterSelectionManager.cs",
-              "ToolTip": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\CharacterSelectionManager.cs",
-              "RelativeToolTip": "Assets\\codigo\\CharacterSelectionManager.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T18:30:04.255Z",
+              "WhenOpened": "2024-11-10T16:50:34.963Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MenuManager.cs",
-              "DocumentMoniker": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\MenuManager.cs",
-              "RelativeDocumentMoniker": "Assets\\codigo\\MenuManager.cs",
-              "ToolTip": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\MenuManager.cs",
-              "RelativeToolTip": "Assets\\codigo\\MenuManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Title": "ObstacleManager.cs",
+              "DocumentMoniker": "C:\\Users\\meryg\\OneDrive\\Escritorio\\ICAI IMAT\\3\u00BA\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Proyecto Final\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\Obstacles\\ObstacleManager.cs",
+              "RelativeDocumentMoniker": "Assets\\codigo\\Obstacles\\ObstacleManager.cs",
+              "ToolTip": "C:\\Users\\meryg\\OneDrive\\Escritorio\\ICAI IMAT\\3\u00BA\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Proyecto Final\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\Obstacles\\ObstacleManager.cs",
+              "RelativeToolTip": "Assets\\codigo\\Obstacles\\ObstacleManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T18:27:12.825Z"
+              "WhenOpened": "2024-11-10T16:01:11.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ObstacleFactory.cs",
+              "DocumentMoniker": "C:\\Users\\meryg\\OneDrive\\Escritorio\\ICAI IMAT\\3\u00BA\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Proyecto Final\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\Obstacles\\ObstacleFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\codigo\\Obstacles\\ObstacleFactory.cs",
+              "ToolTip": "C:\\Users\\meryg\\OneDrive\\Escritorio\\ICAI IMAT\\3\u00BA\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Proyecto Final\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\Obstacles\\ObstacleFactory.cs",
+              "RelativeToolTip": "Assets\\codigo\\Obstacles\\ObstacleFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T18:03:42.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Obstacle.cs",
+              "DocumentMoniker": "C:\\Users\\meryg\\OneDrive\\Escritorio\\ICAI IMAT\\3\u00BA\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Proyecto Final\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\Obstacles\\Obstacle.cs",
+              "RelativeDocumentMoniker": "Assets\\codigo\\Obstacles\\Obstacle.cs",
+              "ToolTip": "C:\\Users\\meryg\\OneDrive\\Escritorio\\ICAI IMAT\\3\u00BA\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Proyecto Final\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\Obstacles\\Obstacle.cs",
+              "RelativeToolTip": "Assets\\codigo\\Obstacles\\Obstacle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T18:06:29.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ObstacleScene.cs",
+              "DocumentMoniker": "C:\\Users\\meryg\\OneDrive\\Escritorio\\ICAI IMAT\\3\u00BA\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Proyecto Final\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\Obstacles\\ObstacleScene.cs",
+              "RelativeDocumentMoniker": "Assets\\codigo\\Obstacles\\ObstacleScene.cs",
+              "ToolTip": "C:\\Users\\meryg\\OneDrive\\Escritorio\\ICAI IMAT\\3\u00BA\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Proyecto Final\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\Obstacles\\ObstacleScene.cs",
+              "RelativeToolTip": "Assets\\codigo\\Obstacles\\ObstacleScene.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T18:03:47.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ObstacleBoost.cs",
+              "DocumentMoniker": "C:\\Users\\meryg\\OneDrive\\Escritorio\\ICAI IMAT\\3\u00BA\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Proyecto Final\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\Obstacles\\ObstacleBoost.cs",
+              "RelativeDocumentMoniker": "Assets\\codigo\\Obstacles\\ObstacleBoost.cs",
+              "ToolTip": "C:\\Users\\meryg\\OneDrive\\Escritorio\\ICAI IMAT\\3\u00BA\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Proyecto Final\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\Obstacles\\ObstacleBoost.cs",
+              "RelativeToolTip": "Assets\\codigo\\Obstacles\\ObstacleBoost.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T18:03:38.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ObstacleAttack.cs",
+              "DocumentMoniker": "C:\\Users\\meryg\\OneDrive\\Escritorio\\ICAI IMAT\\3\u00BA\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Proyecto Final\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\Obstacles\\ObstacleAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\codigo\\Obstacles\\ObstacleAttack.cs",
+              "ToolTip": "C:\\Users\\meryg\\OneDrive\\Escritorio\\ICAI IMAT\\3\u00BA\\Paradigmas y T\u00E9cnicas de Programaci\u00F3n\\Proyecto Final\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\Obstacles\\ObstacleAttack.cs",
+              "RelativeToolTip": "Assets\\codigo\\Obstacles\\ObstacleAttack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T18:19:57.57Z"
             }
           ]
         }
