@@ -61,9 +61,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\codigo\MenuManager.cs" />
-    <Compile Include="Assets\codigo\CharacterSelectionManager.cs" />
-    <Compile Include="Assets\codigo\MapSelectionManager.cs" />
-    <Compile Include="Assets\codigo\VehicleSelectionManager.cs" />
+    <Compile Include="Assets\codigo\Selections\MapSelectionScene.cs" />
+    <Compile Include="Assets\codigo\Obstacles\ObstacleBoost.cs" />
+    <Compile Include="Assets\codigo\Selections\CharacterSelectionScene.cs" />
+    <Compile Include="Assets\codigo\Obstacles\ObstacleScene.cs" />
+    <Compile Include="Assets\codigo\Vehicles\CubeScript.cs" />
+    <Compile Include="Assets\codigo\Obstacles\ObstacleAttackFactory.cs" />
+    <Compile Include="Assets\codigo\Obstacles\ObstacleFactory.cs" />
+    <Compile Include="Assets\codigo\Obstacles\ObstacleBoostFactory.cs" />
+    <Compile Include="Assets\codigo\Obstacles\Obstacle.cs" />
+    <Compile Include="Assets\codigo\Obstacles\ObstacleSceneFactory.cs" />
+    <Compile Include="Assets\codigo\Selections\VehicleSelectionScene.cs" />
+    <Compile Include="Assets\codigo\Obstacles\ObstacleManager.cs" />
+    <Compile Include="Assets\codigo\Vehicles\PlayerScript.cs" />
+    <Compile Include="Assets\codigo\Obstacles\ObstacleAttack.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
