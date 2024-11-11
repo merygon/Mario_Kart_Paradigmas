@@ -188,8 +188,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -416,8 +416,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -518,10 +518,10 @@ RectTransform:
   - {fileID: 270221875}
   m_Father: {fileID: 1600286932}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 213.27667, y: -192.84407}
-  m_SizeDelta: {x: 107.4064, y: 23.0648}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 120, y: 18}
+  m_SizeDelta: {x: 126.3549, y: 26.776093}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &165629105
 MonoBehaviour:
@@ -566,7 +566,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 165629106}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1600286933}
+        m_TargetAssemblyTypeName: CircuitMenuManager, Assembly-CSharp
+        m_MethodName: SelectCircuit
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Circuit4
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &165629106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -671,8 +683,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -805,8 +817,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294769916
+  m_fontColor: {r: 0.98742133, g: 0.98742133, b: 0.98742133, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -907,10 +919,10 @@ RectTransform:
   - {fileID: 478913772}
   m_Father: {fileID: 1600286932}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -106.2577, y: -0.3698}
-  m_SizeDelta: {x: 107.4064, y: 23.0648}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -214, y: -43}
+  m_SizeDelta: {x: 124.8322, y: 26.615112}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &500195114
 MonoBehaviour:
@@ -955,7 +967,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 500195115}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1600286933}
+        m_TargetAssemblyTypeName: CircuitMenuManager, Assembly-CSharp
+        m_MethodName: SelectCircuit
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Circuit1
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &500195115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1060,8 +1084,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1162,10 +1186,10 @@ RectTransform:
   - {fileID: 116226418}
   m_Father: {fileID: 1600286932}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -106.25763, y: -192.84407}
-  m_SizeDelta: {x: 107.4064, y: 23.0648}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -203, y: 19}
+  m_SizeDelta: {x: 124.8322, y: 26.615097}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1212756578
 MonoBehaviour:
@@ -1210,7 +1234,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1212756579}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1600286933}
+        m_TargetAssemblyTypeName: CircuitMenuManager, Assembly-CSharp
+        m_MethodName: SelectCircuit
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Circuit3
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1212756579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1443,10 +1479,10 @@ RectTransform:
   - {fileID: 701341911}
   m_Father: {fileID: 1600286932}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -335.23108, y: 67.964386}
-  m_SizeDelta: {x: 81.0836, y: 81.5508}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -78, y: -109}
+  m_SizeDelta: {x: 94.23871, y: 94.10379}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1533687511
 MonoBehaviour:
@@ -1491,7 +1527,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1533687512}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1600286933}
+        m_TargetAssemblyTypeName: CircuitMenuManager, Assembly-CSharp
+        m_MethodName: StartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1533687512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1557,15 +1605,15 @@ RectTransform:
   m_GameObject: {fileID: 1543760100}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5541654, y: 5.373344, z: 1.2121}
+  m_LocalScale: {x: 1.5541654, y: 4.6342406, z: 1.2121}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1600286932}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -330.0322, y: 10.5403}
-  m_SizeDelta: {x: 85.5964, y: 86.592}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -79.7746, y: 1.8535}
+  m_SizeDelta: {x: 99.9033, y: 104.54}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1543760102
 MonoBehaviour:
@@ -1617,6 +1665,7 @@ GameObject:
   - component: {fileID: 1600286931}
   - component: {fileID: 1600286930}
   - component: {fileID: 1600286929}
+  - component: {fileID: 1600286933}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1714,6 +1763,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1600286933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600286928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef7029e010a50b4781132e39b8f3672, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1673356122
 GameObject:
   m_ObjectHideFlags: 0
@@ -1780,8 +1841,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1882,10 +1943,10 @@ RectTransform:
   - {fileID: 34206602}
   m_Father: {fileID: 1600286932}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 211.9342, y: -0.3698}
-  m_SizeDelta: {x: 107.4064, y: 23.0648}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 112.505554, y: -44}
+  m_SizeDelta: {x: 126.3549, y: 26.776093}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1908436309
 MonoBehaviour:
@@ -1930,7 +1991,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1908436310}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1600286933}
+        m_TargetAssemblyTypeName: CircuitMenuManager, Assembly-CSharp
+        m_MethodName: SelectCircuit
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Circuit2
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1908436310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2003,10 +2076,10 @@ RectTransform:
   - {fileID: 1673356123}
   m_Father: {fileID: 1600286932}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 57.70398, y: 61.06958}
-  m_SizeDelta: {x: 107.4064, y: 23.0648}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -82, y: 44}
+  m_SizeDelta: {x: 136.35999, y: 38.31299}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2081114396
 MonoBehaviour:
@@ -2051,7 +2124,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2081114397}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1600286933}
+        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
+        m_MethodName: ChangeMenu
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: VehicleMenu
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2081114397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2117,15 +2202,15 @@ RectTransform:
   m_GameObject: {fileID: 2144461736}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10.973266, y: 5.4201574, z: 5.4201574}
+  m_LocalScale: {x: 9.384291, y: 4.7896514, z: 4.635296}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1600286932}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 50.6694, y: 8.17}
-  m_SizeDelta: {x: 68.9442, y: 85.9169}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 372, y: 1}
+  m_SizeDelta: {x: 79.44116, y: 103.17}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2144461738
 MonoBehaviour:

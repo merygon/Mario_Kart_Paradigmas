@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\assets\\codigo\\characterselectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|solutionrelative:assets\\codigo\\characterselectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|c:\\users\\david\\onedrive - universidad pontificia comillas\\03 curso\\mario_kart_paradigmas\\mario_kart_paradigmas\\assets\\codigo\\lapcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|solutionrelative:assets\\codigo\\lapcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\assets\\codigo\\vehicleselectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|solutionrelative:assets\\codigo\\vehicleselectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\assets\\codigo\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|solutionrelative:assets\\codigo\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|c:\\users\\david\\onedrive - universidad pontificia comillas\\03 curso\\mario_kart_paradigmas\\mario_kart_paradigmas\\assets\\codigo\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|solutionrelative:assets\\codigo\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\assets\\codigo\\raceuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|solutionrelative:assets\\codigo\\raceuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\assets\\codigo\\mapselectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|solutionrelative:assets\\codigo\\mapselectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\assets\\codigo\\menus\\circuitmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|solutionrelative:assets\\codigo\\menus\\circuitmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\assets\\codigo\\menus\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|solutionrelative:assets\\codigo\\menus\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\assets\\codigo\\menus\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|solutionrelative:assets\\codigo\\menus\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\assets\\codigo\\menus\\vehiclemenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|solutionrelative:assets\\codigo\\menus\\vehiclemenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\assets\\codigo\\menus\\charactermenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067BEC20-B5FF-141B-A67D-919EFBAA4630}|Assembly-CSharp.csproj|solutionrelative:assets\\codigo\\menus\\charactermenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +42,104 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MapSelectionManager.cs",
-              "DocumentMoniker": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\MapSelectionManager.cs",
-              "RelativeDocumentMoniker": "Assets\\codigo\\MapSelectionManager.cs",
-              "ToolTip": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\MapSelectionManager.cs",
-              "RelativeToolTip": "Assets\\codigo\\MapSelectionManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T18:34:07.061Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "VehicleSelectionManager.cs",
-              "DocumentMoniker": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\VehicleSelectionManager.cs",
-              "RelativeDocumentMoniker": "Assets\\codigo\\VehicleSelectionManager.cs",
-              "ToolTip": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\VehicleSelectionManager.cs",
-              "RelativeToolTip": "Assets\\codigo\\VehicleSelectionManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Title": "CarController.cs",
+              "DocumentMoniker": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\CarController.cs",
+              "RelativeDocumentMoniker": "Assets\\codigo\\CarController.cs",
+              "ToolTip": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\CarController.cs",
+              "RelativeToolTip": "Assets\\codigo\\CarController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAywBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T18:32:40.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T22:21:58.768Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CharacterSelectionManager.cs",
-              "DocumentMoniker": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\CharacterSelectionManager.cs",
-              "RelativeDocumentMoniker": "Assets\\codigo\\CharacterSelectionManager.cs",
-              "ToolTip": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\CharacterSelectionManager.cs",
-              "RelativeToolTip": "Assets\\codigo\\CharacterSelectionManager.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAArAAAAAAAAAA==",
+              "Title": "LapCounter.cs",
+              "DocumentMoniker": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\LapCounter.cs",
+              "RelativeDocumentMoniker": "Assets\\codigo\\LapCounter.cs",
+              "ToolTip": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\LapCounter.cs",
+              "RelativeToolTip": "Assets\\codigo\\LapCounter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T18:30:04.255Z",
+              "WhenOpened": "2024-11-10T22:18:57.943Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MenuManager.cs",
-              "DocumentMoniker": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\MenuManager.cs",
-              "RelativeDocumentMoniker": "Assets\\codigo\\MenuManager.cs",
-              "ToolTip": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\MenuManager.cs",
-              "RelativeToolTip": "Assets\\codigo\\MenuManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Title": "RaceUIManager.cs",
+              "DocumentMoniker": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\RaceUIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\codigo\\RaceUIManager.cs",
+              "ToolTip": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\RaceUIManager.cs",
+              "RelativeToolTip": "Assets\\codigo\\RaceUIManager.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAiwDMAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T18:27:12.825Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T20:21:49.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CircuitMenuManager.cs",
+              "DocumentMoniker": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\Menus\\CircuitMenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\codigo\\Menus\\CircuitMenuManager.cs",
+              "ToolTip": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\Menus\\CircuitMenuManager.cs",
+              "RelativeToolTip": "Assets\\codigo\\Menus\\CircuitMenuManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T08:45:56.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VehicleMenuManager.cs",
+              "DocumentMoniker": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\Menus\\VehicleMenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\codigo\\Menus\\VehicleMenuManager.cs",
+              "ToolTip": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\Menus\\VehicleMenuManager.cs",
+              "RelativeToolTip": "Assets\\codigo\\Menus\\VehicleMenuManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T08:45:59.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CharacterMenuManager.cs",
+              "DocumentMoniker": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\Menus\\CharacterMenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\codigo\\Menus\\CharacterMenuManager.cs",
+              "ToolTip": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\Menus\\CharacterMenuManager.cs",
+              "RelativeToolTip": "Assets\\codigo\\Menus\\CharacterMenuManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T08:45:52.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MenuManager.cs",
+              "DocumentMoniker": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\Menus\\MenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\codigo\\Menus\\MenuManager.cs",
+              "ToolTip": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\Menus\\MenuManager.cs",
+              "RelativeToolTip": "Assets\\codigo\\Menus\\MenuManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T08:35:19.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameData.cs",
+              "DocumentMoniker": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\Menus\\GameData.cs",
+              "RelativeDocumentMoniker": "Assets\\codigo\\Menus\\GameData.cs",
+              "ToolTip": "C:\\Users\\david\\OneDrive - Universidad Pontificia Comillas\\03 CURSO\\Mario_Kart_Paradigmas\\Mario_Kart_Paradigmas\\Assets\\codigo\\Menus\\GameData.cs",
+              "RelativeToolTip": "Assets\\codigo\\Menus\\GameData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T11:11:54.97Z"
             }
           ]
         }
