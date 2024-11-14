@@ -60,21 +60,21 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.44f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\codigo\ObstaclesScripts\Monster.cs" />
     <Compile Include="Assets\codigo\MenuManager.cs" />
     <Compile Include="Assets\codigo\Selections\MapSelectionScene.cs" />
-    <Compile Include="Assets\codigo\Obstacles\ObstacleBoost.cs" />
+    <Compile Include="Assets\codigo\ObstaclesScripts\ObstacleFactory.cs" />
     <Compile Include="Assets\codigo\Selections\CharacterSelectionScene.cs" />
-    <Compile Include="Assets\codigo\Obstacles\ObstacleScene.cs" />
+    <Compile Include="Assets\codigo\ObstaclesScripts\FactoryObstacles.cs" />
+    <Compile Include="Assets\codigo\ObstaclesScripts\GameManager.cs" />
+    <Compile Include="Assets\codigo\ObstaclesScripts\SceneObstacle.cs" />
     <Compile Include="Assets\codigo\Vehicles\CubeScript.cs" />
-    <Compile Include="Assets\codigo\Obstacles\ObstacleAttackFactory.cs" />
-    <Compile Include="Assets\codigo\Obstacles\ObstacleFactory.cs" />
-    <Compile Include="Assets\codigo\Obstacles\ObstacleBoostFactory.cs" />
-    <Compile Include="Assets\codigo\Obstacles\Obstacle.cs" />
-    <Compile Include="Assets\codigo\Obstacles\ObstacleSceneFactory.cs" />
+    <Compile Include="Assets\codigo\ObstaclesScripts\MovingObstacle.cs" />
+    <Compile Include="Assets\codigo\ObstaclesScripts\IObstacle.cs" />
     <Compile Include="Assets\codigo\Selections\VehicleSelectionScene.cs" />
-    <Compile Include="Assets\codigo\Obstacles\ObstacleManager.cs" />
+    <Compile Include="Assets\codigo\ObstaclesScripts\BoostObstacle.cs" />
+    <Compile Include="Assets\codigo\ObstaclesScripts\USER.cs" />
     <Compile Include="Assets\codigo\Vehicles\PlayerScript.cs" />
-    <Compile Include="Assets\codigo\Obstacles\ObstacleAttack.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
