@@ -1,6 +1,17 @@
 ﻿################################################################################
 # Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
 ################################################################################
+# Archivos y carpetas generados por Unity
+Library/
+Temp/
+Logs/
+.vs/
+Obj/
+MemoryCaptures/
+*.csproj
+*.sln
+*.userprefs
+Mario_Kart_Paradigmas/MarioKart_Paradigmas/
 
 
 # This .gitignore file should be placed at the root of your Unity project directory
