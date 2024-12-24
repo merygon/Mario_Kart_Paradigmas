@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
@@ -57,4 +57,4 @@ public class RaceUIManager : MonoBehaviour
         float rotation = Mathf.Lerp(-220, 50, speed / maxSpeed);
         needle.localEulerAngles = new Vector3(0, 0, -rotation);
     }
-}
+}*/
