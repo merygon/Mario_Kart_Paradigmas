@@ -8,13 +8,23 @@ public class CarEngine : MonoBehaviour
     public Transform path;
     private List<Transform> nodes;
     private int currentNode = 0;
-    //public float steerAngle = 40;
-    public float maxSteerAngle = 44;
+
+
     public WheelCollider wheelfrontLeft;
     public WheelCollider wheelfrontRight;
+    public WheelCollider wheelrearLeft;
+    public WheelCollider wheelrearRight;
+
+    public float maxSteerAngle = 45f; 
+    public float maxMotorTorque = 200f; 
+    public float nodeReachThreshold = 2f; 
+    public float maxSpeed = 50f;
+
+    private Rigidbody rb;
     // Start is called before the first frame update
     void Start()
     {
+        rb = GetComponent<Rigidbody>();
         Transform[] pathTransform = path.GetComponentsInChildren<Transform>();
         nodes = new List<Transform>();
 
@@ -31,6 +41,9 @@ public class CarEngine : MonoBehaviour
     private void FixedUpdate()
     {
         ApplySteer();
+        //MoveCarForward();
+        Drive();
+        CheckNodeDistance();
     }
 
     private void ApplySteer()
@@ -40,8 +53,48 @@ public class CarEngine : MonoBehaviour
         float newSteer = (relativeVector.x / relativeVector.magnitude) * maxSteerAngle ;
         wheelfrontLeft.steerAngle = newSteer;
         wheelfrontRight.steerAngle = newSteer;
+        Debug.Log("Applying steer: " + newSteer);
     }
 
+
+    private void Drive()
+    {
+        // Aplicar fuerza del motor a las ruedas delanteras
+        wheelfrontLeft.motorTorque = maxMotorTorque;
+        wheelfrontRight.motorTorque = maxMotorTorque;
+
+        Debug.Log("Motor torque applied: " + maxMotorTorque);
+    }
+
+    private void CheckNodeDistance()
+    {
+        // Verificar la distancia al nodo actual
+        if (Vector3.Distance(transform.position, nodes[currentNode].position) < nodeReachThreshold)
+        {
+            // Pasar al siguiente nodo
+            currentNode++;
+            if (currentNode >= nodes.Count)
+            {
+                currentNode = 0; // Reiniciar la ruta si se alcanzó el final
+            }
+        }
+    }
+
+    private void MoveCarForward()
+    {
+        Vector3 forwardForce = transform.forward * 10f; // Ajusta la fuerza según sea necesario
+        GetComponent<Rigidbody>().AddForce(forwardForce);
+        Debug.Log("Applying forward force: " + forwardForce);
+    }
+
+    private void LimitSpeed()
+    {
+        // Limitar la velocidad máxima del coche
+        if (rb.velocity.magnitude > maxSpeed)
+        {
+            rb.velocity = rb.velocity.normalized * maxSpeed;
+        }
+    }
 
 
 }
