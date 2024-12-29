@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class GameData : MonoBehaviour
@@ -9,6 +10,9 @@ public class GameData : MonoBehaviour
     public string selectedMap = "";
     public bool raceStarted = false;
 
+    public int playerPosition = 0; // Posición del jugador
+    public List<string> otherCharacters = new List<string>(); // Lista de los otros personajes
+
     private void Awake()
     {
         if (Instance == null)
@@ -18,9 +22,7 @@ public class GameData : MonoBehaviour
         }
         else
         {
-            Destroy(gameObject); // Evitar duplicados
+            Destroy(gameObject);
         }
     }
 }
-
-

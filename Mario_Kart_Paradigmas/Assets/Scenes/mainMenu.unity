@@ -930,7 +930,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 1
-  m_AdditionalShaderChannelsFlag: 5
+  m_AdditionalShaderChannelsFlag: 29
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -1002,6 +1002,14 @@ MonoBehaviour:
   selectedVehicle: 
   selectedMap: 
   raceStarted: 0
+  vehiclePrefabsList:
+  - vehicleName: ElRayo
+    vehiclePrefab: {fileID: 3294564219125457607, guid: 8a8f57edf3523624eb9f886833e8e97a, type: 3}
+  - vehicleName: Tornado
+    vehiclePrefab: {fileID: 7720726507797323357, guid: e9be6b9d71ce20345b55b654f6eca5d9, type: 3}
+  - vehicleName: FantasticCar
+    vehiclePrefab: {fileID: 3311311803080157842, guid: 133308cdb8794744caaef026bde9e1f0, type: 3}
+  selectedVehicleKey: 
 --- !u!4 &1692176685
 Transform:
   m_ObjectHideFlags: 0
