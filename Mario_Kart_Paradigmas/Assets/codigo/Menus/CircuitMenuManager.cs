@@ -16,7 +16,12 @@ public class CircuitMenuManager : MonoBehaviour
             !string.IsNullOrEmpty(GameData.Instance.selectedMap))
         {
             GameData.Instance.raceStarted = true;
-            SceneManager.LoadScene("RaceScene");
+
+            // Cargar la escena según el circuito seleccionado
+            string selectedMap = GameData.Instance.selectedMap;
+
+            Debug.Log($"Loading scene: {selectedMap}");
+            SceneManager.LoadScene(selectedMap); // Usa el nombre de la escena almacenada en selectedMap
         }
         else
         {
@@ -24,4 +29,3 @@ public class CircuitMenuManager : MonoBehaviour
         }
     }
 }
-

@@ -13,6 +13,11 @@ public class GameData : MonoBehaviour
     public int playerPosition = 0; // Posición del jugador
     public List<string> otherCharacters = new List<string>(); // Lista de los otros personajes
 
+
+
+    public List<float> lapTimes;
+
+
     private void Awake()
     {
         if (Instance == null)

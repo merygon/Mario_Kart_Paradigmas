@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 public class LapCounter : MonoBehaviour
@@ -46,4 +47,5 @@ public class LapCounter : MonoBehaviour
         }
     }
 }
+
 

@@ -1,4 +1,4 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 using System.Collections.Generic;
@@ -7,63 +7,94 @@ public class RaceUIManager : MonoBehaviour
 {
     public TextMeshProUGUI timeText;
     public TextMeshProUGUI lapCounterText;
-    public TextMeshProUGUI lapTimesText; // Para mostrar los tiempos de las vueltas
+    public TextMeshProUGUI lapTimesText; // Texto para los tiempos por vuelta
     public RectTransform needle;
     public float maxSpeed = 200f;
 
     private float currentTime = 0f;
+    private float timePast = 0f;
     public int currentLap = 0;
     public int totalLaps = 3;
     public float currentSpeed = 0f;
     private List<float> lapTimes = new List<float>(); // Lista para guardar los tiempos de las vueltas
 
+    private bool isTimeTrial = false; // Si es contrarreloj
+    private float timeLimit = 60f; // LÃ­mite de 1 minutos en contrarreloj
+
     void Start()
     {
-        // Inicialización de textos y aguja
+        isTimeTrial = GameData.Instance.selectedMap != "RaceScene";
+
+        // InicializaciÃ³n de textos
         timeText.text = "Time: 0.00";
-        lapCounterText.text = $"{currentLap}/{totalLaps}";
-        lapTimesText.text = ""; // Texto vacío al inicio
+
+        if (!isTimeTrial)
+        {
+            lapCounterText.text = $"{currentLap}/{totalLaps}";
+        }
+        else
+        {
+            lapCounterText.text = $"Laps: {currentLap}"; // Contar vueltas en contrarreloj
+        }
+
+        lapTimesText.text = ""; // Texto vacÃ­o al inicio
         SetNeedleRotation(0);
     }
 
     void Update()
     {
-        // Incrementar tiempo de la vuelta actual
         currentTime += Time.deltaTime;
-        timeText.text = "Time: " + currentTime.ToString("F2");
+        timePast += Time.deltaTime;
+        if (isTimeTrial)
+        {
+            float timeRemaining = Mathf.Clamp(timeLimit - timePast, 0, timeLimit);
+            timeText.text = "Time Left: " + timeRemaining.ToString("F2");
+
+            if (timeRemaining <= 0)
+            {
+                EndTimeTrial();
+            }
+        }
+        else
+        {
+            timeText.text = "Time: " + currentTime.ToString("F2");
+        }
     }
 
     public void UpdateSpeed(float speed)
     {
-        // Actualiza la velocidad y la aguja
         currentSpeed = Mathf.Clamp(speed, 0, maxSpeed);
         SetNeedleRotation(currentSpeed);
     }
 
     public void UpdateLap()
     {
-        // Guardar el tiempo de la vuelta completada
-        lapTimes.Add(currentTime);
+        lapTimes.Add(currentTime); // Guardar tiempo de la vuelta
         UpdateLapTimesText();
 
-        // Reiniciar el tiempo para la nueva vuelta
-        currentTime = 0f;
-
-        // Incrementar el contador de vueltas
-        currentLap++;
-        lapCounterText.text = $"{currentLap}/{totalLaps}";
-
-        // Comprobar si la carrera ha terminado
-        if (currentLap >= 4)
+        if (isTimeTrial)
         {
-            Debug.Log("¡Carrera completada!");
-            FinishRace(); // Llama al método para finalizar la carrera
+            currentTime = 0f;
+            currentLap++;
+            lapCounterText.text = $"Laps: {currentLap}";
+        }
+        else
+        {
+            currentTime = 0f;
+
+            currentLap++;
+            lapCounterText.text = $"{currentLap}/{totalLaps}";
+
+            if (currentLap >= 4)
+            {
+                Debug.Log("Â¡Carrera completada!");
+                FinishRace();
+            }
         }
     }
 
     private void UpdateLapTimesText()
     {
-        // Actualizar el texto del historial de tiempos de vueltas
         lapTimesText.text = "Lap Times:\n";
         for (int i = 0; i < lapTimes.Count; i++)
         {
@@ -79,7 +110,13 @@ public class RaceUIManager : MonoBehaviour
 
     private void FinishRace()
     {
-        // Lógica para finalizar la carrera
+        SceneManager.LoadScene("FinalScene");
+    }
+
+    private void EndTimeTrial()
+    {
+        Debug.Log("Tiempo agotado. Fin del contrarreloj.");
+        GameData.Instance.lapTimes = new List<float>(lapTimes); // Guardar los tiempos para la escena final
         SceneManager.LoadScene("FinalScene");
     }
 }

@@ -6,10 +6,21 @@ public class RaceSetup : MonoBehaviour
 
     void Start()
     {
+        if (GameData.Instance.selectedMap == "RaceScene")
+        {
+            SetupRaceMode();
+        }
+        else
+        {
+            SetupTimeTrialMode();
+        }
+    }
+
+    private void SetupRaceMode()
+    {
         // Obtener todos los coches en la escena
         GameObject[] allCars = GameObject.FindGameObjectsWithTag("Car");
 
-        // Recorrer todos los coches
         foreach (GameObject car in allCars)
         {
             // Verificar si el nombre del coche coincide con el seleccionado
@@ -50,4 +61,38 @@ public class RaceSetup : MonoBehaviour
             }
         }
     }
+
+    private void SetupTimeTrialMode()
+    {
+        Debug.Log("Configurando el modo contrarreloj");
+
+        // Desactivar todos los coches excepto el seleccionado
+        GameObject[] allCars = GameObject.FindGameObjectsWithTag("Car");
+
+        foreach (GameObject car in allCars)
+        {
+            if (car.name == GameData.Instance.selectedVehicle)
+            {
+                car.SetActive(true);
+
+                // Habilitar VehicleController y asignar la cámara
+                VehicleController carController = car.GetComponent<VehicleController>();
+                if (carController != null)
+                {
+                    carController.enabled = true;
+                }
+
+                CameraFollow cameraFollow = mainCamera.GetComponent<CameraFollow>();
+                if (cameraFollow != null)
+                {
+                    cameraFollow.target = car.transform;
+                }
+            }
+            else
+            {
+                car.SetActive(false); // Desactivar coches no seleccionados
+            }
+        }
+    }
 }
+
