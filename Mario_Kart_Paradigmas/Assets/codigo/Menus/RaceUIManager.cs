@@ -19,7 +19,7 @@ public class RaceUIManager : MonoBehaviour
     private List<float> lapTimes = new List<float>(); // Lista para guardar los tiempos de las vueltas
 
     private bool isTimeTrial = false; // Si es contrarreloj
-    private float timeLimit = 60f; // Límite de 1 minutos en contrarreloj
+    private float timeLimit = 300f; // Límite de 5 minutos en contrarreloj
 
     void Start()
     {
