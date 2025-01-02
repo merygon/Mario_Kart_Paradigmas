@@ -48,3 +48,5 @@ sysinfo.txt
 # NO ignorar scripts, configuraciones o assets
 !Assets/
 
+# Ignorar archivos de Visual Studio
+.vs/
