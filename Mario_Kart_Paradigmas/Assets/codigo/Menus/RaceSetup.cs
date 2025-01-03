@@ -39,6 +39,17 @@ public class RaceSetup : MonoBehaviour
                     Debug.LogError($"VehicleController no encontrado en el coche: {car.name}");
                 }
 
+                // Desactivar IA para el coche seleccionado
+                CarEngine carEngine = car.GetComponent<CarEngine>();
+                if (carEngine != null)
+                {
+                    carEngine.enabled = false;
+                }
+                foreach (CarWheel wheel in car.GetComponentsInChildren<CarWheel>())
+                { 
+                    wheel.enabled = false; 
+                }
+
                 // Asignar la cámara al coche seleccionado
                 CameraFollow cameraFollow = mainCamera.GetComponent<CameraFollow>();
                 if (cameraFollow != null)
@@ -57,6 +68,19 @@ public class RaceSetup : MonoBehaviour
                 if (carController != null)
                 {
                     carController.enabled = false;
+                }
+                CarEngine carEngine = car.GetComponent<CarEngine>();
+                if (carEngine != null)
+                {
+                    carEngine.enabled = true;
+                }
+                else
+                {
+                    Debug.LogError($"CarEngine no encontrado en el coche: {car.name}");
+                }
+                foreach (CarWheel wheel in car.GetComponentsInChildren<CarWheel>())
+                {
+                    wheel.enabled = true;
                 }
             }
         }

@@ -4,21 +4,15 @@ using UnityEngine;
 
 public class SliderObstacle : MonoBehaviour, IObstacle
 {
-    public void OnPlayerCollision(PlayerScript player)
+    public void OnTriggerEnter(Collider other)
     {
-        player.ModifySpeed(-3f, 3f); // decreases speed x3 during 3 seconds
-        Debug.Log("Using a slider");
-    }
-
-    public void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Car"))
         {
             Debug.Log("Collision with slider");
-            PlayerScript player = collision.gameObject.GetComponent<PlayerScript>();
-            if (player != null)
+            VehicleController vehicle = other.GetComponent<VehicleController>();
+            if (vehicle != null)
             {
-                OnPlayerCollision(player);
+                vehicle.ModifySpeed(-3f, 3f);
             }
         }
     }

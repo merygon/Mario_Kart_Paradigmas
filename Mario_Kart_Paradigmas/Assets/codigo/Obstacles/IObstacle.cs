@@ -4,6 +4,6 @@ using UnityEngine;
 
 public interface IObstacle
 {
-    void OnPlayerCollision(PlayerScript player);
-    void OnCollisionEnter(Collision collision);
+    //void OnPlayerCollision(PlayerScript player);
+    void OnTriggerEnter(Collider other);
 }

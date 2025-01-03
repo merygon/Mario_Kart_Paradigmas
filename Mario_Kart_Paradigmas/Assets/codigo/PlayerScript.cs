@@ -22,15 +22,15 @@ public class PlayerScript : MonoBehaviour
         speed /= multiplier;
     }
 
-    private void OnCollisionEnter(Collision collision)
+    /*private void OnCollisionEnter(Collision collision)
     {
         IObstacle obstacle = collision.gameObject.GetComponent<IObstacle>();
         if (obstacle != null )
         {
-            obstacle.OnPlayerCollision(this);   
+            obstacle.OnTriggerEnter(Collider other);   
         }
 
-    }
+    }*/
 
     void Update()
     {

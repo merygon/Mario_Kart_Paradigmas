@@ -4,21 +4,14 @@ using UnityEngine;
 
 public class BoostObstacle : MonoBehaviour, IObstacle
 {
-    public void OnPlayerCollision(PlayerScript player)
+    public void OnTriggerEnter(Collider other)
     {
-        player.ModifySpeed(10f, 10f); // increases speed x10 during 10 seconds
-        Debug.Log("Using a boost");
-    }
-
-    public void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Car"))
         {
-            Debug.Log("Collision with boost");
-            PlayerScript player = collision.gameObject.GetComponent<PlayerScript>();
-            if (player != null)
+            VehicleController vehicle = other.GetComponent<VehicleController>();
+            if (vehicle != null)
             {
-                OnPlayerCollision(player);
+                vehicle.ModifySpeed(10f, 10f);
             }
         }
     }

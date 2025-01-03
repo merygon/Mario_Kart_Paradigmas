@@ -4,21 +4,15 @@ using UnityEngine;
 
 public class SceneObstacle : MonoBehaviour, IObstacle
 {
-    public void OnPlayerCollision(PlayerScript player)
+    public void OnTriggerEnter(Collider other)
     {
-        player.ModifySpeed(-5f, 5f); // decreases speed x5 during 5 seconds
-        Debug.Log("Using a monster");
-    }
-
-    public void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Car"))
         {
             Debug.Log("Collision with monster");
-            PlayerScript player = collision.gameObject.GetComponent<PlayerScript>();
-            if (player != null)
+            VehicleController vehicle = other.GetComponent<VehicleController>();
+            if (vehicle != null)
             {
-                OnPlayerCollision(player);
+                vehicle.ModifySpeed(-5f, 5f);
             }
         }
     }

@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class VehicleController : MonoBehaviour
 {
@@ -137,4 +138,22 @@ public class VehicleController : MonoBehaviour
         wheel.forwardFriction = forwardFriction;
         wheel.sidewaysFriction = sidewaysFriction;
     }
+
+    public void ModifySpeed(float amount, float time)
+    {
+        motorForce += amount;
+        StartCoroutine(ResetBoostAfterTime(amount, time));
+    }
+
+    private IEnumerator ResetBoostAfterTime(float amount, float duration)
+    {
+        yield return new WaitForSeconds(duration);
+        motorForce -= amount;
+    }
+
+
 }
+
+
+
+
