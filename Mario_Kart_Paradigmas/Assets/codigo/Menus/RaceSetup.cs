@@ -23,6 +23,12 @@ public class RaceSetup : MonoBehaviour
 
         foreach (GameObject car in allCars)
         {
+            // Asegurar que todos los coches tengan el tag correcto
+            if (car.tag != "Car")
+            {
+                Debug.LogWarning($"El coche {car.name} no tiene el tag 'Car'. Corrigiendo...");
+                car.tag = "Car";
+            }
             // Verificar si el nombre del coche coincide con el seleccionado
             if (car.name == GameData.Instance.selectedVehicle)
             {
@@ -111,6 +117,8 @@ public class RaceSetup : MonoBehaviour
                 {
                     cameraFollow.target = car.transform;
                 }
+                car.tag = "Car";
+
             }
             else
             {

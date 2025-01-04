@@ -139,16 +139,22 @@ public class VehicleController : MonoBehaviour
         wheel.sidewaysFriction = sidewaysFriction;
     }
 
-    public void ModifySpeed(float amount, float time)
+    public void ModifySpeed(float speedChange, float duration)
     {
-        motorForce += amount;
-        StartCoroutine(ResetBoostAfterTime(amount, time));
+        Debug.LogWarning($"Boost activado para {duration} segundos con multiplicador {speedChange}");
+        StartCoroutine(TemporarySpeedChange(speedChange, duration));
     }
 
-    private IEnumerator ResetBoostAfterTime(float amount, float duration)
+    private IEnumerator TemporarySpeedChange(float speedChange, float duration)
     {
+        float originalMotorForce = motorForce; 
+        motorForce += speedChange; 
+        Debug.LogWarning($"Motor force {motorForce}");
+
         yield return new WaitForSeconds(duration);
-        motorForce -= amount;
+
+        motorForce = originalMotorForce;
+        Debug.LogWarning($"Boost terminado. Motor force restaurado a {motorForce}");
     }
 
 
