@@ -149,7 +149,6 @@ public class VehicleController : MonoBehaviour
     {
         float originalMotorForce = motorForce; 
         motorForce += speedChange; 
-        Debug.LogWarning($"Motor force {motorForce}");
 
         yield return new WaitForSeconds(duration);
 

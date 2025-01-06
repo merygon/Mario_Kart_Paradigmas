@@ -53,7 +53,6 @@ public class CarEngine : MonoBehaviour
         float newSteer = (relativeVector.x / relativeVector.magnitude) * maxSteerAngle ;
         wheelfrontLeft.steerAngle = newSteer;
         wheelfrontRight.steerAngle = newSteer;
-        Debug.Log("Applying steer: " + newSteer);
     }
 
 
@@ -62,8 +61,6 @@ public class CarEngine : MonoBehaviour
         // Aplicar fuerza del motor a las ruedas delanteras
         wheelfrontLeft.motorTorque = maxMotorTorque;
         wheelfrontRight.motorTorque = maxMotorTorque;
-
-        Debug.Log("Motor torque applied: " + maxMotorTorque);
     }
 
     private void CheckNodeDistance()
@@ -84,7 +81,6 @@ public class CarEngine : MonoBehaviour
     {
         Vector3 forwardForce = transform.forward * 10f; // Ajusta la fuerza según sea necesario
         GetComponent<Rigidbody>().AddForce(forwardForce);
-        Debug.Log("Applying forward force: " + forwardForce);
     }
 
     private void LimitSpeed()
