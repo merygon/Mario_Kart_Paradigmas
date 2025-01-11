@@ -36,44 +36,9 @@ Desarrollo de un videojuego de carreras inspirado en Mario Kart, implementado en
 - Controlador compatible con Unity (opcional para más inmersión).
 
 ## Estructura del Proyecto
-.
-├── Assets/
-│   ├── Scripts/
-│   │   ├── Menus/
-│   │   │   ├── MainMenu.cs
-│   │   │   ├── CharacterSelectionMenu.cs
-│   │   │   ├── CarSelectionMenu.cs
-│   │   │   ├── TrackSelectionMenu.cs
-│   │   │   └── GameModeSelectionMenu.cs
-│   │   ├── Game/
-│   │   │   ├── CarController.cs
-│   │   │   ├── AICarController.cs
-│   │   │   ├── LapManager.cs
-│   │   │   ├── RaceManager.cs
-│   │   │   └── PodiumManager.cs
-│   │   └── Utilities/
-│   │       ├── AudioManager.cs
-│   │       ├── SaveSystem.cs
-│   │       └── InputManager.cs
-│   ├── Prefabs/
-│   ├── Characters/
-│   ├── Cars/
-│   ├── Tracks/
-│   ├── Scenes/
-│   │   ├── MainMenu.unity
-│   │   ├── CharacterSelection.unity
-│   │   ├── CarSelection.unity
-│   │   ├── TrackSelection.unity
-│   │   ├── Race.unity
-│   │   └── Podium.unity
-│   ├── Audio/
-│   │   ├── Music/
-│   │   └── SFX/
-│   └── UI/
-│       ├── Buttons/
-│       ├── Panels/
-│       └── Fonts/
-└── README.md
+
+![image](https://github.com/user-attachments/assets/26fc8cb6-ab76-4823-b10a-f04144997af9)
+
 
 
 
