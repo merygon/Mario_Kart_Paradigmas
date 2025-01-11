@@ -15,26 +15,36 @@ Desarrollo de un videojuego de carreras inspirado en Mario Kart, implementado en
 - Selección de coche con diferentes estéticas y estadísticas (velocidad, manejo, aceleración).
 - Elección de circuito con diferentes diseños y niveles de dificultad.
 - Selección del modo de juego: Carrera o Contrarreloj.
+- Modos de juego:
+   Carrera: Competición contra IA y superación de obstáculos.
+   Contrarreloj: Completar tantas vueltas como sea posible dentro del límite de tiempo.
 
 ### Sistema de Carrera
-- Circuitos en 3D con diseños variados.
+- Circuitos 3D: Escenarios detallados con curvas, rampas y obstáculos.
 - IA para coches controlados por el juego.
-- Cálculo de posiciones en tiempo real.
-- Cálculo de tiempo por vuelta.
-- Sistema de conteo de vueltas.
+- Tiempo y posición en tiempo real: Información mostrada en pantalla durante la carrera.
+- Sistema de conteo de vueltas: Registra las vueltas completadas por el jugador y la IA.
 
 ### Final de Carrera
 - Podio final que muestra las posiciones obtenidas por cada participante.
 - Pantalla de resultados con tiempos y posiciones.
 
 ### Gráficos y Sonido
-- Estética vibrante y colorida.
-- Música de fondo.
+- Estética vibrante y colorida: Diseños inspirados en videojuegos clásicos de carreras.
+- Música y efectos de sonido: Ambientación inmersiva para las carreras y menús.
 
 ## Requisitos del Sistema
 - Unity 2022.3 o superior.
 - .NET Framework 4.7.1 o superior.
 - Controlador compatible con Unity (opcional para más inmersión).
+
+## Controles del Juego
+Acción	            Teclado	
+Acelerar	            W	      
+Frenar	            S	      
+Girar a la izquierda	A	      
+Girar a la derecha	D	
+Pausa	               (botón pausa en pantalla)	
 
 ## Estructura del Proyecto
 
@@ -42,7 +52,7 @@ Desarrollo de un videojuego de carreras inspirado en Mario Kart, implementado en
 .
 ├── Assets/
 │   ├── Scripts/
-│   │   ├── Menus/
+│   │   ├── Menús/
 │   │   │   ├── MainMenuController.cs
 │   │   │   ├── CharacterSelectionMenu.cs
 │   │   │   ├── VehicleSelectionMenu.cs
@@ -52,6 +62,10 @@ Desarrollo de un videojuego de carreras inspirado en Mario Kart, implementado en
 │   │   │   ├── TimeTrialController.cs
 │   │   │   ├── PodiumController.cs
 │   │   │   └── PlayerController.cs
+│   │   ├── AI/
+│   │   │   ├── CarEngine.cs
+│   │   │   ├── CarWheel.cs
+│   │   │   └── Path.cs
 │   │   └── Utilities/
 │   │       ├── GameManager.cs
 │   │       └── AudioManager.cs
@@ -60,6 +74,10 @@ Desarrollo de un videojuego de carreras inspirado en Mario Kart, implementado en
 │   │   ├── CharacterSelection.unity
 │   │   ├── VehicleSelection.unity
 │   │   ├── CircuitSelection.unity
+│   │   ├── RaceScene.unity
+│   │   ├── Circuit1.unity
+│   │   ├── Circuit2.unity
+│   │   ├── Circuit3.unity
 │   │   └── Podium.unity
 │   ├── Prefabs/
 │   ├── Models/
@@ -67,6 +85,7 @@ Desarrollo de un videojuego de carreras inspirado en Mario Kart, implementado en
 │   ├── Audio/
 │   └── UI/
 └── README.md
+
 ```
 
 ## Guía de Uso

@@ -312,7 +312,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7495443279060062592, guid: 133308cdb8794744caaef026bde9e1f0, type: 3}
       propertyPath: m_Mass
-      value: 1750
+      value: 2000
       objectReference: {fileID: 0}
     - target: {fileID: 7495443279060062592, guid: 133308cdb8794744caaef026bde9e1f0, type: 3}
       propertyPath: m_Interpolate
@@ -3327,7 +3327,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3374474453900846415, guid: e9be6b9d71ce20345b55b654f6eca5d9, type: 3}
       propertyPath: m_Mass
-      value: 1750
+      value: 2000
       objectReference: {fileID: 0}
     - target: {fileID: 3374474453900846415, guid: e9be6b9d71ce20345b55b654f6eca5d9, type: 3}
       propertyPath: m_Interpolate
@@ -4785,7 +4785,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7514724142118017493, guid: 8a8f57edf3523624eb9f886833e8e97a, type: 3}
       propertyPath: m_Mass
-      value: 1750
+      value: 2000
       objectReference: {fileID: 0}
     - target: {fileID: 7514724142118017493, guid: 8a8f57edf3523624eb9f886833e8e97a, type: 3}
       propertyPath: m_AngularDrag
