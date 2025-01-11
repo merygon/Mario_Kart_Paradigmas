@@ -20,6 +20,7 @@ Desarrollo de un videojuego de carreras inspirado en Mario Kart, implementado en
 - Circuitos en 3D con diseños variados.
 - IA para coches controlados por el juego.
 - Cálculo de posiciones en tiempo real.
+- Cálculo de tiempo por vuelta.
 - Sistema de conteo de vueltas.
 
 ### Final de Carrera
@@ -28,7 +29,7 @@ Desarrollo de un videojuego de carreras inspirado en Mario Kart, implementado en
 
 ### Gráficos y Sonido
 - Estética vibrante y colorida.
-- Música y efectos de sonido personalizados.
+- Música de fondo.
 
 ## Requisitos del Sistema
 - Unity 2022.3 o superior.
@@ -68,14 +69,12 @@ Desarrollo de un videojuego de carreras inspirado en Mario Kart, implementado en
 └── README.md
 ```
 
-
-
 ## Guía de Uso
 
 1. **Iniciar el Juego**
    - Desde el menú principal, el jugador puede:
      - Iniciar una nueva partida.
-     - Ajustar configuraciones como sonido, controles y gráficos.
+     - Entender los controles.
      - Salir del juego.
 
 2. **Selección de Personaje y Vehículo**
@@ -86,14 +85,14 @@ Desarrollo de un videojuego de carreras inspirado en Mario Kart, implementado en
 3. **Selección de Circuito y Modo de Juego**
    - **Circuitos**: Selección de pistas con curvas empinadas, rampas y obstáculos.
    - **Modos de Juego**:
-     - Carrera: Competencia contra IA y otros jugadores.
-     - Contrarreloj: Supera tu mejor tiempo.
+     - Carrera: Competencia contra IA y superación de obstáculos.
+     - Contrarreloj: Completar las 3 vueltas con un límite de tiempo.
 
 4. **Sistema de Carrera**
    - Durante la carrera:
      - El jugador compite completando un número definido de vueltas.
      - La IA utiliza un sistema de nodos para seguir la pista.
-     - Se calcula la posición en tiempo real.
+     - Se calcula la posición en tiempo real y el tiempo por vuelta.
 
 5. **Final de Carrera**
    - Visualización del podio con los tres primeros puestos.
@@ -106,10 +105,6 @@ El proyecto utiliza un enfoque modular para separar las funcionalidades clave:
 - **Gestor de Carreras**: Controla el inicio, desarrollo y fin de las carreras. Maneja eventos como vueltas completadas, colisiones y posiciones.
 - **Sistema de Podio**: Calcula los resultados finales. Muestra una animación de podio al finalizar.
 
-## Optimizaciones de Rendimiento
-- LOD (Level of Detail) para reducir la carga gráfica.
-- Scripts optimizados para evitar cálculos innecesarios en cada frame.
-- Reducción de colisiones utilizando capas y filtros.
 
 ## Limitaciones y Trabajo Futuro
 
