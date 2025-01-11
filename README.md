@@ -37,67 +37,44 @@ Desarrollo de un videojuego de carreras inspirado en Mario Kart, implementado en
 
 ## Estructura del Proyecto
 .
-├── src/
-    ├── detect_signs.py
-    ├── calibration/
-    │   ├── camera_parameters.pkl
-    │   ├── distortion_parameters.pkl
-    │   ├── get_calibration_images.py
-    │   └── calibration.ipynb
-    ├── classifying/
-    │   ├── utils/
-    │   ├── download_dataset.py
-    │   ├── classify.py
-    │   └── train_classifier.py
-    ├── tracking/
-    │   ├── utils/
-    │   └── tracking.py
-    ├── video/
-    │   └── utils.py
-    ├── data/
-    │   ├── traffic_Data/
-    │   │   ├── DATA/
-    │   │   └── TEST/
-    │   └── calibration_images/
-    └── README.md
-.
 ├── Assets/
-   ├── Scripts/
-      ├── Menus/
-      │   ├── MainMenu.cs
-      │   ├── CharacterSelectionMenu.cs
-      │   ├── CarSelectionMenu.cs
-      │   ├── TrackSelectionMenu.cs
-      │   └── GameModeSelectionMenu.cs
-      ├── Game/
-      │   ├── CarController.cs
-      │   ├── AICarController.cs
-      │   ├── LapManager.cs
-      │   ├── RaceManager.cs
-      │   └── PodiumManager.cs
-      └── Utilities/
-            ├── AudioManager.cs
-            ├── SaveSystem.cs
-            └── InputManager.cs
-      ├── Prefabs/
-      ├── Characters/
-      ├── Cars/
-      └── Tracks/
-      ├── Scenes/
-      │   ├── MainMenu.unity
-      │   ├── CharacterSelection.unity
-      │   ├── CarSelection.unity
-      │   ├── TrackSelection.unity
-      │   ├── Race.unity
-      │   └── Podium.unity
-      ├── Audio/
-      │   ├── Music/
-      │   └── SFX/
-      └── UI/
-      ├── Buttons/
-      ├── Panels/
-      └── Fonts/
+│   ├── Scripts/
+│   │   ├── Menus/
+│   │   │   ├── MainMenu.cs
+│   │   │   ├── CharacterSelectionMenu.cs
+│   │   │   ├── CarSelectionMenu.cs
+│   │   │   ├── TrackSelectionMenu.cs
+│   │   │   └── GameModeSelectionMenu.cs
+│   │   ├── Game/
+│   │   │   ├── CarController.cs
+│   │   │   ├── AICarController.cs
+│   │   │   ├── LapManager.cs
+│   │   │   ├── RaceManager.cs
+│   │   │   └── PodiumManager.cs
+│   │   └── Utilities/
+│   │       ├── AudioManager.cs
+│   │       ├── SaveSystem.cs
+│   │       └── InputManager.cs
+│   ├── Prefabs/
+│   ├── Characters/
+│   ├── Cars/
+│   ├── Tracks/
+│   ├── Scenes/
+│   │   ├── MainMenu.unity
+│   │   ├── CharacterSelection.unity
+│   │   ├── CarSelection.unity
+│   │   ├── TrackSelection.unity
+│   │   ├── Race.unity
+│   │   └── Podium.unity
+│   ├── Audio/
+│   │   ├── Music/
+│   │   └── SFX/
+│   └── UI/
+│       ├── Buttons/
+│       ├── Panels/
+│       └── Fonts/
 └── README.md
+
 
 
 
